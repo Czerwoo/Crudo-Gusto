@@ -13,6 +13,17 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        "beige-color": "#f1ebdd",
+        "white-color": "#f8f5ee",
+        // prettier-ignore
+        "red": "#ff0000",
+        "main-font-color": "#404040",
+      },
+      fontFamily: {
+        "main-font": "Cormorant Garamond",
+        "quotation-font": ['"Dancing Script"', "cursive"],
+      },
     },
   },
   plugins: [],
