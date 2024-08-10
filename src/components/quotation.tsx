@@ -1,15 +1,15 @@
 import React from "react";
 
-interface QuotationData {
+interface HeaderData {
   content: string;
-  author?: string;
 }
 
-export default function Quotation({ content, author }: QuotationData) {
+export default function Header({ content }: HeaderData) {
   return (
-    <section className="px-[20%] py-5 bg-white-color flex justify-center">
-      <q className="font-quotation-font">{content}</q>
-      <p>{author}</p>
+    <section className="max-sm:px-[5%] sm:px-[10%] md:px-[20%] py-5 bg-white-color flex justify-center text-center">
+      <h1 className="font-quotation-font max-sm:text-base sm:text-lg md:text-xl lg:text-2xl">
+        {content}
+      </h1>
     </section>
   );
 }

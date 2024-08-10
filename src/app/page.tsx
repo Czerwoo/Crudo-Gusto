@@ -1,10 +1,11 @@
+import Gallery from "@/components/gallery";
 import ImageDescProps from "@/components/ImageDescProps";
-import Quotation from "@/components/quotation";
+import Header from "@/components/quotation";
 
 export default function Page() {
   return (
     <main>
-      <Quotation content="CrudoGusto - włoskie jedzenie, delikatesy i wyjątkowy catering śródziemnomorski" />
+      <Header content="CrudoGusto - włoskie jedzenie, delikatesy i wyjątkowy catering śródziemnomorski" />
       <ImageDescProps
         src="https://res.cloudinary.com/dku1cgzdg/image/upload/v1723138157/image00020_t2jtgh.jpg"
         title="Inspiracja"
@@ -27,6 +28,7 @@ export default function Page() {
         height={1706}
         onlyPhoto
       />
+      <Gallery width={1365} height={1706} />
     </main>
   );
 }

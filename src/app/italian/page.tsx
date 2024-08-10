@@ -1,10 +1,10 @@
 import ImageDescProps from "@/components/ImageDescProps";
-import Quotation from "@/components/quotation";
+import Header from "@/components/quotation";
 
 export default function ItalianPage() {
   return (
     <main>
-      <Quotation content="Włoski stół na Twojej uroczystości!" />
+      <Header content="Włoski stół na Twojej uroczystości!" />
       <ImageDescProps
         src="https://res.cloudinary.com/dku1cgzdg/image/upload/v1723138052/image00001_mzogtp.jpg"
         title="Nasz włoski stół"
