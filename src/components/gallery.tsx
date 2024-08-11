@@ -1,13 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import cos from "/public/img/cos.jpeg";
-import deska from "/public/img/deska.jpeg";
-import kapary from "/public/img/kapary.jpeg";
-import mortadela from "/public/img/mortadela.jpeg";
-import oliwa from "/public/img/oliwa.jpeg";
-import oliwki from "/public/img/oliwki.jpeg";
-import pasta from "/public/img/pasta.jpeg";
-import ser from "/public/img/ser.jpeg";
 
 interface GalleryData {
   width: number;
@@ -22,41 +14,45 @@ export default function Gallery({ width, height }: GalleryData) {
       <div className="sm:w-1/2 grid grid-cols-2 grid-rows-2">
         <div>
           <Image
-            src={cos}
+            src={
+              "https://res.cloudinary.com/dku1cgzdg/image/upload/v1723391992/pasta_Easy-Resize.com_d24t9z.jpg"
+            }
             width={width}
             height={height}
             alt="Zdjęcie"
-            loading="lazy"
             className="object-cover w-full h-full"
           />
         </div>
         <div>
           <Image
-            src={deska}
+            src={
+              "https://res.cloudinary.com/dku1cgzdg/image/upload/v1723391992/deska_Easy-Resize.com_bru8ek.jpg"
+            }
             width={width}
             height={height}
             alt="Zdjęcie"
-            loading="lazy"
             className="object-cover w-full h-full"
           />
         </div>
         <div>
           <Image
-            src={kapary}
+            src={
+              "https://res.cloudinary.com/dku1cgzdg/image/upload/v1723391992/oliwa_Easy-Resize.com_gj3znx.jpg"
+            }
             width={width}
             height={height}
             alt="Zdjęcie"
-            loading="lazy"
             className="object-cover w-full h-full"
           />
         </div>
         <div>
           <Image
-            src={mortadela}
+            src={
+              "https://res.cloudinary.com/dku1cgzdg/image/upload/v1723391990/kapary_Easy-Resize.com_vsm5zn.jpg"
+            }
             width={width}
             height={height}
             alt="Zdjęcie"
-            loading="lazy"
             className="object-cover w-full h-full"
           />
         </div>
@@ -64,41 +60,45 @@ export default function Gallery({ width, height }: GalleryData) {
       <div className="sm:w-1/2 grid grid-cols-2 grid-rows-2">
         <div>
           <Image
-            src={oliwa}
+            src={
+              "https://res.cloudinary.com/dku1cgzdg/image/upload/v1723391990/ser_Easy-Resize.com_s2wcgv.jpg"
+            }
             width={width}
             height={height}
             alt="Zdjęcie"
-            loading="lazy"
             className="object-cover w-full h-full"
           />
         </div>
         <div>
           <Image
-            src={oliwki}
+            src={
+              "https://res.cloudinary.com/dku1cgzdg/image/upload/v1723391990/oliwki_Easy-Resize.com_y5cast.jpg"
+            }
             width={width}
             height={height}
             alt="Zdjęcie"
-            loading="lazy"
             className="object-cover w-full h-full"
           />
         </div>
         <div>
           <Image
-            src={pasta}
+            src={
+              "https://res.cloudinary.com/dku1cgzdg/image/upload/v1723391990/cos_Easy-Resize.com_qmqdmj.jpg"
+            }
             width={width}
             height={height}
             alt="Zdjęcie"
-            loading="lazy"
             className="object-cover w-full h-full"
           />
         </div>
         <div>
           <Image
-            src={ser}
+            src={
+              "https://res.cloudinary.com/dku1cgzdg/image/upload/v1723391990/mortadela_Easy-Resize.com_dmoodl.jpg"
+            }
             width={width}
             height={height}
             alt="Zdjęcie"
-            loading="lazy"
             className="object-cover w-full h-full"
           />
         </div>
