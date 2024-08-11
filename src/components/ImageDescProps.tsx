@@ -36,7 +36,13 @@ export default function ImageDescProps({
       } max-md:px-[5%] max-2xl:px-[10%] 2xl:px-[20%]  max-sm:text-base sm:text-sm md:text-sm lg:text-xl xl:text-2xl bg-beige-color`}
     >
       <div className="sm:w-1/2">
-        <Image src={src} width={width} height={height} alt="Zdjęcie" loading="lazy"/>
+        <Image
+          src={src}
+          width={width}
+          height={height}
+          alt="Zdjęcie"
+          loading="lazy"
+        />
       </div>
 
       <div
@@ -45,7 +51,7 @@ export default function ImageDescProps({
         } sm:w-1/2 flex-col h-px[${`height`}] max-sm:text-center  justify-center max-sm:items-center p-4`}
       >
         <h3
-          className={`font-title-font max-sm:text-base sm:text-lg md:text-xl lg:text-2xl`}
+          className={`font-title-font max-sm:text-lg sm:text-lg md:text-xl lg:text-2xl`}
         >
           {title}
         </h3>
