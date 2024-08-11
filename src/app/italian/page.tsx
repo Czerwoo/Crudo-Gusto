@@ -1,4 +1,5 @@
 import ImageDescProps from "@/components/ImageDescProps";
+import ImageProps2 from "@/components/ImageDescProps2";
 import Header from "@/components/quotation";
 
 export default function ItalianPage() {
@@ -26,7 +27,7 @@ export default function ItalianPage() {
         width={1365}
         height={1706}
       />
-      <ImageDescProps
+      <ImageProps2
         src="https://res.cloudinary.com/dku1cgzdg/image/upload/v1723138032/image00028_nyyypy.jpg"
         description="Włoskie jedzenie to nasza pasja! Zadzwoń lub napisz, chętnie odpowiemy na Twoje pytania. \n 726-481-207 \n crudogusto@wp.pl"
         width={1365}
