@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { Italianno } from "next/font/google";
 
-const italianno = Italianno({
+const italiano = Italianno({
   subsets: ["latin"],
   weight: "400",
 });
@@ -51,7 +51,7 @@ export default function ImageProps2({
         } sm:w-1/2 flex-col h-px[${`height`}] max-sm:text-center  justify-center max-sm:items-center p-4`}
       >
         <h3
-          className={`font-title-font max-sm:text-lg sm:text-lg md:text-xl lg:text-2xl`}
+          className={`${italiano.className} max-sm:text-3xl sm:text-4xl md:text-4xl lg:text-4xl`}
         >
           {title}
         </h3>
