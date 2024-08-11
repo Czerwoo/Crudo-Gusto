@@ -1,4 +1,4 @@
-import Header from "@/components/quotation";
+import Header from "@/components/header";
 
 export default function ContactPage() {
   return (

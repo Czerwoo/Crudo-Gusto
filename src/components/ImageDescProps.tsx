@@ -51,7 +51,7 @@ export default function ImageDescProps({
         } sm:w-1/2 flex-col h-px[${`height`}] max-sm:text-center  justify-center max-sm:items-center p-4`}
       >
         <h3
-          className={`font-title-font max-sm:text-lg sm:text-lg md:text-xl lg:text-2xl`}
+          className={`font-title-font max-sm:text-xl sm:text-xl md:text-xl lg:text-2xl`}
         >
           {title}
         </h3>

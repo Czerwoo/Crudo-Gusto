@@ -33,7 +33,7 @@ export default function ImageProps2({
         inverted
           ? "flex-row-reverse max-sm:flex-col-reverse"
           : "flex-row max-sm:flex-col"
-      } max-md:px-[5%] max-2xl:px-[10%] 2xl:px-[20%]  max-sm:text-base sm:text-sm md:text-sm lg:text-xl xl:text-2xl bg-beige-color`}
+      } max-md:px-[5%] max-2xl:px-[10%] 2xl:px-[20%]  max-sm:text-xl sm:text-xl md:text-sm lg:text-xl xl:text-2xl bg-beige-color`}
     >
       <div className="sm:w-1/2">
         <Image

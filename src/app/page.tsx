@@ -1,6 +1,6 @@
 import Gallery from "@/components/gallery";
 import ImageDescProps from "@/components/ImageDescProps";
-import Header from "@/components/quotation";
+import Header from "@/components/header";
 
 export default function Page() {
   return (
@@ -9,7 +9,8 @@ export default function Page() {
       <ImageDescProps
         src="https://res.cloudinary.com/dku1cgzdg/image/upload/v1723138157/image00020_t2jtgh.jpg"
         title="Inspiracja"
-        description="Podczas jednej z długich rozmów o jedzeniu narodził się pomysł wyjątkowego włoskiego cateringu. W Crudo Gusto stawiamy sobie za cel zachwycać smakiem naszych produktów i dań. Dlatego catering, który proponujemy to zupełna nowość."
+        description="Podczas jednej z długich rozmów o jedzeniu narodził się pomysł wyjątkowego włoskiego sklepu. W Crudo Gusto stawiamy sobie za cel zachwycać smakiem naszych produktów i dań. Dlatego proponujemy Wam 
+najwyższą jakość i delikatesy z atmosferą Włoch."
         width={1365}
         height={1706}
         inverted
