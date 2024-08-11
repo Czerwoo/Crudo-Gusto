@@ -22,8 +22,8 @@ const config: Config = {
       },
       fontFamily: {
         "main-font": "Cormorant Garamond",
-        "quotation-font": ['"Dancing Script"', "cursive"],
-        "title-font": ['"Italianno"', "cursive"],
+        "quotation-font": "cursive",
+        "title-font": "cursive",
       },
     },
   },
