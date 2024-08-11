@@ -5,7 +5,7 @@ import Header from "@/components/quotation";
 export default function Page() {
   return (
     <main>
-      <Header content="CrudoGusto - włoskie jedzenie, delikatesy i wyjątkowy catering śródziemnomorski" />
+      <Header content="Crudo Gusto - włoskie jedzenie, delikatesy i wyjątkowy catering śródziemnomorski" />
       <ImageDescProps
         src="https://res.cloudinary.com/dku1cgzdg/image/upload/v1723138157/image00020_t2jtgh.jpg"
         title="Inspiracja"
@@ -28,6 +28,7 @@ export default function Page() {
         height={1706}
         onlyPhoto
       />
+      <Header content="Produkty dostępne w Crudo Gusto" />
       <Gallery width={1365} height={1706} />
     </main>
   );
